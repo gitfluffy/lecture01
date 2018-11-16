@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--this sample shows how to make some part of the webpage unprintable-->
+<html>
+<head>
+    <title>My Web Page! - print</title>
+    <style>
+        @media print {
+            .screen-only {
+                display: none;
+                
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <p>This is a paragraph</p>
+    <p>This is another paragraph</p>
+    <p class="screen-only">This paragraph won't appear when you print this page</p>
+
+</body>
+
+</html>
